@@ -5,7 +5,8 @@ describe('Siskel', function() {
     {
       title: 'Primer',
       year: 2004,
-      rating: 9
+      rating: 12,
+      criticReview: 5
     },
     {
       title: 'Back to the Future',
@@ -47,6 +48,7 @@ describe('Siskel', function() {
 
     it('should update its comparator', function() {
       collection.sortByField('rating');
+      console.log(collection.models);
       expect(collection.comparator).to.equal('rating');
     });
 

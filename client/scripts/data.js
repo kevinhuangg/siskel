@@ -7,7 +7,8 @@ var movieData = [
   {
     title: 'Primer',
     year: 2004,
-    rating: 9
+    rating: 9,
+    criticRating: 5,
   },
   {
     title: 'Groundhog Day',
